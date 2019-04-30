@@ -1,0 +1,29 @@
+{
+  "name": "slopac",
+  "version": "1.0.2",
+  "description": "Z39.50, JWT, Hapi, nodejs ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Z39.50",
+    "JWT",
+    "Hapi",
+    "nodejs"
+  ],
+  "author": "Jozef Varga",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "hapi": "^17.8.1",
+    "hapi-auth-jwt2": "^8.2.0",
+    "inert": "^5.1.2",
+    "jsonwebtoken": "^8.4.0",
+    "knex": "^0.16.3",
+    "mkdirp": "^0.5.1",
+    "node-zoom2": "^0.3.0",
+    "pg": "^7.7.1",
+    "uuid": "^3.3.2"
+  }
+}
